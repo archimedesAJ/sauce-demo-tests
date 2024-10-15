@@ -7,7 +7,7 @@ This automation project aims to verify the functionality of an ecommerce website
 ## SetUp Instruction
 1. `Clone the repository`: https://github.com/archimedesAJ/sauce-demo-tests or `download zip file`
 2. `Import Project into IDE`: Import the project into your preferred Java IDE (Eclipse, IntelliJ IDEA, etc.).
-3. `Install Dependencies`: Ensure that you have Java, Maven, and TestNG installed on your system. You can manage dependencies using Maven's pom.xml file.
+3. `Install Dependencies`: Ensure that you have **Java**, **Maven**, and TestNG installed on your system. You can manage dependencies using Maven's pom.xml file.
 4. `Run Tests`: Execute the test suite using TestNG. You can run tests from your IDE or via Maven command line.
 
 ## How to run the tests
@@ -15,6 +15,9 @@ This automation project aims to verify the functionality of an ecommerce website
 2. `Running a profile test`: e.g mvn test -Psmoke
 3. `Running all tests`: e.g mvn clean test
 4. `Running testng file`: e.g mvn test -DsuiteXmlFile=testng_all.xml
+
+## Where to Find The Report 
+Locate test report from the **report** folder
 
 ## Usage
 - Add new test cases as needed under the tests package.
