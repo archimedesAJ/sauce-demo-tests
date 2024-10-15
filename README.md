@@ -2,7 +2,7 @@
 This project demonstrates automated testing of an ecommerce website using Java, Selenium WebDriver, TestNG, ExtentReport and Apache POI for data-driven testing.
 
 ## Overview
-This automation project aims to verify the functionality of an ecommerce website through automated tests. It utilizes Selenium WebDriver for interacting with web elements, TestNG for test execution and reporting, and Apache POI for data-driven testing by reading test data from Excel files.
+This automation project aims to verify the functionality of an ecommerce website through automated tests. It utilizes Selenium WebDriver for interacting with web elements, TestNG for test execution and reporting, and Apache POI for data-driven testing by reading test data from Excel files. The project employed Page Object Model (POM) that separates page elements from tests hence improving maintainability.
 
 ## SetUp Instruction
 1. `Clone the repository`: https://github.com/archimedesAJ/sauce-demo-tests or `download zip file`
